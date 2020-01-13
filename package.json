@@ -1,0 +1,23 @@
+{
+  "name": "lucaverhees",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucavh/lucaverhees-nl.git"
+  },
+  "author": "Luca Verhees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucavh/lucaverhees-nl/issues"
+  },
+  "homepage": "https://github.com/lucavh/lucaverhees-nl#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
