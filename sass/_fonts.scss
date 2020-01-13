@@ -1,0 +1,25 @@
+// FONTS
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 300;
+  src: url('barlow-light-webfont.woff2') format('woff2'),
+  url('barlow-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('barlow-regular-webfont.woff2') format('woff2'),
+  url('barlow-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  src: url('barlow-semibold-webfont.woff2') format('woff2'),
+  url('barlow-semibold-webfont.woff') format('woff');
+}
