@@ -1,9 +1,75 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML><HEAD>
-<TITLE>500 Internal Server Error</TITLE>
-</HEAD><BODY>
-<H1>Internal Server Error</H1>
-The server encountered an internal error or misconfiguration and was unable to complete your request
-<HR>
-<I><!--#echo var="HTTP_HOST" --></I>
-</BODY></HTML>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta Stuff -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta name="description" content="I’m Luca Verhees, an Amsterdam-based Data
+    Scientist with a great passion for UX."/>
+    <meta name="author" content="Luca Verhees"/>
+    <meta name="theme-color" content="#3BD67E"/>
+
+    <meta property="og:url" content="https://www.lucaverhees.nl/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Luca Verhees"/>
+    <meta property="og:description" content="I’m Luca Verhees, an
+    Amsterdam-based Data Scientist with a great passion for UX."/>
+    <meta property="og:image" content="./assets/og-image-luca.png"/>
+    <meta property="og:site_name" content="Luca Verhees"/>
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content/>
+    <meta name="twitter:title" content="Luca Verhees"/>
+    <meta name="twitter:description" content="I’m Luca Verhees, an
+    Amsterdam-based Data Scientist with a great passion for UX." />
+    <meta name="twitter:image" content="./assets/og-image-luca.png"/>
+
+    <title>Luca Verhees</title>
+
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/wph2tkp.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="canonical" href="https://www.lucaverhees.nl/" />
+    <link rel="icon" type="image/x-icon" href="https://www.lucaverhees.nl/favicon.ico">
+    <link rel="mask-icon" href="./assets/icon-touchbar.svg"
+          color="#3BD67E" sizes="any"/>
+
+  </head>
+
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="c-2-3">
+          <h1>
+            Internal Server Error
+          </h1>
+          <p>
+            The server encountered an internal error or misconfiguration and was unable to complete your request
+          </p>
+            <p>
+            <a href="https://www.lucaverhees.nl" class="icon-link">
+              Go back to the homepage
+              <svg style="margin-left:8px;" width="12px" height="10px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g fill="#000" fill-rule="nonzero">
+                          <path d="M17.414,23.414 L27.414,13.414 C28.195,12.633 28.195,11.367 27.414,10.586 L17.414,0.586 C16.633,-0.195 15.367,-0.195 14.586,0.586 C13.805,1.367 13.805,2.633 14.586,3.414 L21.172,10 L2,10 C0.895,10 3.55271368e-15,10.895 3.55271368e-15,12 C3.55271368e-15,13.105 0.895,14 2,14 L21.172,14 L14.586,20.586 C14.196,20.976 14,21.488 14,22 C14,22.512 14.195,23.024 14.586,23.414 C15.367,24.195 16.633,24.195 17.414,23.414 Z"></path>
+                      </g>
+                  </g>
+              </svg>
+            </a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+
+      </div>
+    </footer>
+
+  </body>
+</html>
