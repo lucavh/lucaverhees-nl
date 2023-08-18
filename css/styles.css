@@ -99,6 +99,9 @@ body {
     display: inline-block; 
   } 
 }
+main {
+  overflow-x: hidden;
+}
 main a,
 .skills a {
   color: #49AC84;
