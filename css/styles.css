@@ -99,9 +99,6 @@ body {
     display: inline-block; 
   } 
 }
-main {
-  overflow-x: hidden;
-}
 main a,
 .skills a {
   color: #49AC84;
@@ -135,6 +132,7 @@ header .socials a:selected,
 }
 main {
   background: #fff;
+  overflow-x: hidden;
 }
 h1 {
   -webkit-animation: slide-down 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
