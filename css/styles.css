@@ -108,6 +108,7 @@ main a:hover,
 .skills a:hover {
   color: #49AC84;
   text-decoration: underline;
+  cursor: pointer;
 }
 header {
   padding: 20px;
